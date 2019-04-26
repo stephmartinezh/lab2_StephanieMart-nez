@@ -200,9 +200,4 @@ int menu(){
 	cout<<endl;
 	return opcion;	
 }
-string tercero(string cadena, char letra){
-	char letra2;
-	cadena += letra;
 
-	return cadena;	
-}
