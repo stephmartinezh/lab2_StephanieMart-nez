@@ -23,7 +23,7 @@ int main(){
 			cout<<"1.- Primera función"<<endl<<"2.- Sengunda función"<<endl;
 			cout<<"	  Ingrese una opción: ";
 			cin>> opcion2;
-			while(opcion2 < 1 || opcion2 <2){
+			while(opcion2 < 1 || opcion2 <2){//validación
 				cout<< "El número que ha ingresado no es válido"<<endl;
 				cout<<"1.- Primera función"<<endl<<"2.- Sengunda función"<<endl;
                        		cout<<"   Ingrese una opción: ";
