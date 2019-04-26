@@ -10,7 +10,8 @@ int menu();
 
 int main(){
 	int opcion = 0;
-	do{//repeticion
+	do{//repeticion 
+		//menu
 		opcion = menu();
 		while(opcion<1 || opcion>4){
 			cout<<"La opción que ha ingresado no es váilida, ingrese un número de uno a cuatro"<<endl;
