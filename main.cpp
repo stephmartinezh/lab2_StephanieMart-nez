@@ -5,11 +5,12 @@ using std::endl;
 #include <string>
 using std::string;
 
+
 int menu();
 
 int main(){
 	int opcion = 0;
-	do{
+	do{//repeticion
 		opcion = menu();
 		while(opcion<1 || opcion>4){
 			cout<<"La opción que ha ingresado no es váilida, ingrese un número de uno a cuatro"<<endl;
