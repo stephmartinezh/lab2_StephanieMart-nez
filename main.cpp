@@ -169,9 +169,7 @@ int main(){
 							temporal = cadena[i];
 							cadena[i] = cadena[j];
 							cadena[j] = temporal;
-
 							cout<<cadena<<endl;
-
 							temporal = cadena[i];
 							cadena[i] = cadena[j];
 							cadena[j] = temporal;
