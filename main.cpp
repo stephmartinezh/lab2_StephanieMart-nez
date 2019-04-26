@@ -179,7 +179,6 @@ int main(){
 
 					}
 					cout<<cadena<<endl;
-					//cadena2 = tercero(cadena,letra3);
 				}	
 			}
 			cout<<cadena2<<endl;
