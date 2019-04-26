@@ -63,7 +63,7 @@ int main(){
                                 cout<<endl;
                                 cout<<"Ingrese una secuencia de dígitos: ";
                                 cin>> cadena;
-                                while(cadena.length()/2 == 0){
+                                while(cadena.length()/2 == 0){//validacion
                                         cout<<"La secuencia de dígitos debe de ser par"<<endl;
                                         cout<<"Ingrese una secuencia de dígitos: ";
                                         cin>> cadena;
