@@ -174,7 +174,6 @@ int main(){
 							cadena[i] = cadena[j];
 							cadena[j] = temporal;
 						}
-
 					}
 					cout<<cadena<<endl;
 				}	
